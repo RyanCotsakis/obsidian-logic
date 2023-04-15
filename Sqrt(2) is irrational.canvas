@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"type":"text","text":"$\\sqrt{2}$ is irrational","id":"81ceb798e35e45b9","x":0,"y":-60,"width":175,"height":60,"color":"6"},
+		{"type":"text","text":"$\\sqrt{2}$ is rational","id":"f17bbbfc27b87c85","x":-240,"y":-60,"width":156,"height":60},
+		{"type":"text","text":"$\\exists p, q\\in \\mathbb{N}$ sharing no common factors such that $$\\sqrt{2} = \\frac{p}{q}.$$","id":"74ac8d4697eed57d","x":-287,"y":-220,"width":250,"height":118},
+		{"type":"text","text":"$\\exists p, q\\in \\mathbb{N}$ sharing no common factors such that $$2q^2 = p^2$$","id":"8bffce1c0aa4986f","x":-287,"y":-380,"width":250,"height":118},
+		{"type":"text","text":"$p^2$ is even","id":"b733e09613b502fa","x":-224,"y":-500,"width":125,"height":60},
+		{"type":"text","text":"$\\wedge\n$","id":"1b2bf87fd55e091c","x":0,"y":-630,"width":81,"height":60},
+		{"type":"text","text":"$\\wedge$","id":"c421ddcf192e74bd","x":411,"y":-318,"width":64,"height":60},
+		{"type":"text","text":"$q$ is even","id":"8abd64fc4c90413c","x":209,"y":-191,"width":118,"height":60},
+		{"type":"text","text":"$p$ is even","id":"dd3ba25f53815302","x":-18,"y":-530,"width":118,"height":60},
+		{"type":"text","text":"$\\wedge\n$","id":"8365bdbcef9a283c","x":211,"y":-424,"width":81,"height":60},
+		{"type":"text","text":"$$q^2 = 2c^2$$","id":"705173df3b727bc2","x":176,"y":-333,"width":151,"height":91},
+		{"type":"text","text":"$\\exists c\\in \\mathbb{N}$ such that $p = 2c$","id":"4e23c97ac2ec2842","x":149,"y":-530,"width":205,"height":60},
+		{"type":"text","text":"The square root of an even square is even","id":"8ee33295614a5266","x":127,"y":-640,"width":250,"height":80,"color":"4"},
+		{"type":"text","text":"$\\wedge\n$","id":"b4af370cda411196","x":1,"y":-191,"width":81,"height":60}
+	],
+	"edges":[
+		{"id":"2e529383c816f017","fromNode":"81ceb798e35e45b9","fromSide":"left","toNode":"f17bbbfc27b87c85","toSide":"right","toEnd":"none","color":"1"},
+		{"id":"2a4e019e6e436bdc","fromNode":"74ac8d4697eed57d","fromSide":"bottom","toNode":"f17bbbfc27b87c85","toSide":"top","toEnd":"none","color":"5"},
+		{"id":"5907537ecd7d39b4","fromNode":"8bffce1c0aa4986f","fromSide":"bottom","toNode":"74ac8d4697eed57d","toSide":"top","toEnd":"none","color":"5"},
+		{"id":"fd289987b6e113c5","fromNode":"8bffce1c0aa4986f","fromSide":"top","toNode":"b733e09613b502fa","toSide":"bottom"},
+		{"id":"60b8bf0e275103f9","fromNode":"8ee33295614a5266","fromSide":"left","toNode":"1b2bf87fd55e091c","toSide":"right"},
+		{"id":"fc319c97217ead19","fromNode":"b733e09613b502fa","fromSide":"right","toNode":"1b2bf87fd55e091c","toSide":"left"},
+		{"id":"5913e0c5386c336f","fromNode":"1b2bf87fd55e091c","fromSide":"bottom","toNode":"dd3ba25f53815302","toSide":"top"},
+		{"id":"7dace1a3deb23e0e","fromNode":"4e23c97ac2ec2842","fromSide":"bottom","toNode":"8365bdbcef9a283c","toSide":"top"},
+		{"id":"95b916bcb30ab12f","fromNode":"8bffce1c0aa4986f","fromSide":"right","toNode":"8365bdbcef9a283c","toSide":"left"},
+		{"id":"b56c2ac011e6972b","fromNode":"8365bdbcef9a283c","fromSide":"bottom","toNode":"705173df3b727bc2","toSide":"top"},
+		{"id":"f451e76d33bb4b0c","fromNode":"8ee33295614a5266","fromSide":"right","toNode":"c421ddcf192e74bd","toSide":"top"},
+		{"id":"3f5af78f5a4bdeb6","fromNode":"705173df3b727bc2","fromSide":"right","toNode":"c421ddcf192e74bd","toSide":"left"},
+		{"id":"492057a1bdd371ff","fromNode":"c421ddcf192e74bd","fromSide":"bottom","toNode":"8abd64fc4c90413c","toSide":"right"},
+		{"id":"66d7aa6dcf9e192f","fromNode":"4e23c97ac2ec2842","fromSide":"left","toNode":"dd3ba25f53815302","toSide":"right","toEnd":"none","color":"5"},
+		{"id":"9d38d7d3dc49c759","fromNode":"dd3ba25f53815302","fromSide":"bottom","toNode":"b4af370cda411196","toSide":"top"},
+		{"id":"a1a1bd0fcb229277","fromNode":"8abd64fc4c90413c","fromSide":"left","toNode":"b4af370cda411196","toSide":"right"},
+		{"id":"916b40a17ef32420","fromNode":"74ac8d4697eed57d","fromSide":"right","toNode":"b4af370cda411196","toSide":"left","toEnd":"none","color":"2"}
+	]
+}
