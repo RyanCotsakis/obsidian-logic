@@ -28,7 +28,7 @@ The logical argument *modus ponens* can be made easily understood by the followi
 ![](./images/modus_ponens.png)
 
 
-Below is a proof of the irrationality of $\sqrt 2$. Indeed, the only way for the logic circuit to be consistent is if the proposition "$\sqrt 2$ is irrational" is True.
+Below is a proof of the irrationality of $\sqrt 2$. Indeed, the only way for the logic circuit to be consistent is if the proposition $\sqrt 2$ *is irrational* is true.
 
 
 ![Proof of the irrationality](./images/irrationality_proof.png)
