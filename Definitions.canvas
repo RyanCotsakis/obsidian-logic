@@ -23,7 +23,7 @@
 		{"type":"text","text":"$= 1$","id":"cf1827cc5a845985","x":-414,"y":-1426,"width":82,"height":60,"color":"4"},
 		{"type":"text","text":"$\\neg A$","id":"2de7b0681caf402a","x":-417,"y":-1326,"width":88,"height":60},
 		{"type":"text","text":"$B$","id":"1c96f47c401e73f0","x":-539,"y":-1276,"width":95,"height":60},
-		{"type":"text","text":"$\\leq 1$","id":"2dd3660d2043f792","x":-301,"y":-1276,"width":97,"height":60},
+		{"type":"text","text":"$\\geq 1$","id":"2dd3660d2043f792","x":-301,"y":-1276,"width":97,"height":60},
 		{"type":"text","text":"$A\\Rightarrow B$","id":"4575e16233eb9c03","x":-305,"y":-1209,"width":105,"height":60},
 		{"type":"text","text":"$A$","id":"98659c75befb3086","x":-1406,"y":-1426,"width":100,"height":60},
 		{"type":"text","text":"$A$","id":"99f4d3dc5d6035e4","x":-1405,"y":-1195,"width":100,"height":60},
